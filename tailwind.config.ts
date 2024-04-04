@@ -11,6 +11,7 @@ const config: Config = {
       primary: {
         "pale-blue": "hsl(225, 100%, 94%)",
         "bright-blue": "hsl(245, 75%, 52%)",
+        "lavender": "hsl(245, 83%, 68%)"
       },
       neutral: {
         "very-pale-blue": "hsl(225, 100%, 98%)",

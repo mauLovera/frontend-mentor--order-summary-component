@@ -1,3 +1,9 @@
+import OrderSummary from "@/components/OrderSummary"
+
 export default function Home() {
-  return <main></main>
+  return (
+    <main>
+      <OrderSummary />
+    </main>
+  )
 }
