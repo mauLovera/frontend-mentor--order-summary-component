@@ -5,7 +5,7 @@ import MusicIcon from "./icons/MusicIcon"
 
 export default function OrderSummary() {
   return (
-    <article className="bg-neutral-very-pale-blue max-w-[450px] overflow-hidden rounded-[20px] shadow-neutral-desaturated-blue/20 shadow-3xl">
+    <article className="bg-neutral-very-pale-blue shadow-neutral-desaturated-blue/20 shadow-3xl max-w-[450px] overflow-hidden rounded-[20px]">
       <HeroIcon />
       <section className="p-12 text-center">
         <header className="mb-12">
@@ -18,9 +18,9 @@ export default function OrderSummary() {
           </p>
         </header>
         <section className="mb-14 flex items-center justify-between px-6">
-          <div className="flex items-center gap-5 h-48px">
+          <div className="h-48px flex items-center gap-5">
             <MusicIcon />
-            <div className="flex flex-col items-start justify-between h-full">
+            <div className="flex h-full flex-col items-start justify-between">
               <span className="text-neutral-dark-blue font-black">
                 Annual Plan
               </span>
@@ -34,10 +34,10 @@ export default function OrderSummary() {
             Change
           </Link>
         </section>
-        <button className="bg-primary-bright-blue text-neutral-very-pale-blue shadow-primary-lavender/30 mb-7 flex w-full items-center justify-center rounded-[10px] py-[14px] text-[15px] font-bold tracking-[calc(2_*_0.01em)] shadow-xl">
+        <button className="bg-primary-bright-blue text-neutral-very-pale-blue shadow-primary-lavender/30 hover:bg-primary-lavender mb-7 flex w-full items-center justify-center rounded-[10px] py-[14px] text-[15px] font-bold tracking-[calc(2_*_0.01em)] shadow-xl transition-colors">
           Proceed to Payment
         </button>
-        <button className="text-neutral-desaturated-blue text-[15px] font-bold transition-colors hover:text-neutral-dark-blue">
+        <button className="text-neutral-desaturated-blue hover:text-neutral-dark-blue text-[15px] font-bold transition-colors">
           Cancel Order
         </button>
       </section>
