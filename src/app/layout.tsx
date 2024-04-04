@@ -1,8 +1,9 @@
 import type { Metadata } from "next"
 
-import Footer from "@/components/Footer"
-import { sans } from "@/fonts"
 import "./globals.css"
+import { sans } from "@/fonts"
+import Footer from "@/components/ui/Footer"
+import Banner from "@/components/ui/Banner"
 
 export const metadata: Metadata = {
   title: "Frontend Mentor | Order Summary Component",
@@ -16,9 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={sans.className}>
+      <body
+        className={`${sans.className} bg-primary-pale-blue bg-desktop-design flex min-h-screen flex-col items-center justify-center`}
+      >
+        <Banner />
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </body>
     </html>
   )
