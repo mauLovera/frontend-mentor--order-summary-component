@@ -18,6 +18,18 @@ const config: Config = {
         "dark-blue": "hsl(223, 47%, 23%)",
       },
     },
+    backgroundImage: {
+      desktop: "url('/images/pattern-background-desktop.svg')",
+      mobile: "url('/images/pattern-background-mobile.svg')",
+    },
+    screens: {
+      mobile: "375px",
+    },
+    extend: {
+      boxShadow: {
+        "3xl": "0 35px 60px 0px rgba(0, 0, 0, 0.3)",
+      },
+    },
   },
   plugins: [],
 }
