@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${sans.className} bg-primary-pale-blue bg-desktop-design flex min-h-screen flex-col items-center justify-center`}
+        className={`${sans.className} bg-primary-pale-blue bg-desktop-design flex min-h-screen flex-col items-center justify-center p-6`}
       >
         <Banner />
         {children}

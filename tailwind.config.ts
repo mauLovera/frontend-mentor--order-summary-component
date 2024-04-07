@@ -25,6 +25,7 @@ const config: Config = {
     },
     screens: {
       mobile: "375px",
+      md: "768px"
     },
     extend: {
       boxShadow: {
