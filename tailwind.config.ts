@@ -17,6 +17,8 @@ const config: Config = {
         "very-pale-blue": "hsl(225, 100%, 98%)",
         "desaturated-blue": "hsl(224, 23%, 55%)",
         "dark-blue": "hsl(223, 47%, 23%)",
+        "light-blue": "hsl(230, 75%, 98%)",
+        "white": "hsl(0, 0%, 100%)",  
       },
     },
     backgroundImage: {
@@ -24,7 +26,7 @@ const config: Config = {
       mobile: "url('/images/pattern-background-mobile.svg')",
     },
     screens: {
-      mobile: "375px",
+      mobile: "415px",
       md: "768px"
     },
     extend: {
